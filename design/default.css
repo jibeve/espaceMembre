@@ -1,0 +1,81 @@
+html {
+    font-family: arial;
+    font-size: 18px;
+    background-color: #bde3ec;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+input {
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(56, 64, 64);
+    padding: 15px;
+}
+
+header h1 {
+    color: rgb(233, 182, 146);
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#form {
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    background: red;
+}
+
+form {
+    text-align: left;
+    display: inline-block;
+}
+
+#button {
+    text-align: center;
+    margin-top: 5px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#error {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+#success {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
