@@ -70,7 +70,7 @@ if(!empty($_POST['pseudo']) && !empty($_POST['email']) && !empty($_POST['passwor
         if(!isset($_SESSION['connect'])){ ?>
 
         <p id="info" >Bienvenue</p>
-        <p>Déjà inscrit ! <a href="connection.php">Connectez-vous</a></p>
+        <p>Déjà inscrit ? <a href="connection.php">Connectez-vous</a></p>
 
         <?php 
         if(isset($_GET['error'])){

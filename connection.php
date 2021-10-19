@@ -16,7 +16,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])){
     $password = $_POST['password'];
     $error = 1;
     //password encryption
-    $password = "abq3".sha1($password."1245")."86754";
+    $password = "abq3".sha1($password."83674")."347845";
 
     $req = $db->prepare('SELECT * FROM users WHERE email = ?');
     $req->execute(array($email));
@@ -62,7 +62,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])){
 
     <div class="container">
     <p id="info">Bienvenue</p>
-    <p>Si vous n'êtes pas inscrit, <a href="index.php">Inscrivez-vous</a></p>
+    <p>Si vous n'êtes pas inscrits, <a href="index.php">Inscrivez-vous</a></p>
 
     <?php
         if(isset($_GET['error'])){
